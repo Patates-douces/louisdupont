@@ -1,0 +1,5 @@
+
+services:
+  app.home.controller:
+    class: Tws\Controller\HomeController
+    arguments:
