@@ -1,0 +1,39 @@
+
+html {
+    overflow: auto;
+}
+
+p {
+    color: darkred;
+    position: center;
+}
+
+a {
+    color: darkred;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+
+b {
+    color: darkred;
+    position: absolute;
+    top: 60px;
+    right: 600px;
+}
+
+.left {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    left: 150px;
+}
+
+.right {
+    max-width: 40%;
+    height: auto;
+    position: absolute;
+    right: 150px;
+}
+
+

@@ -1,23 +1,31 @@
 
 <!DOCTYPE html>
-<html>
-<head>
-    <th>
+    <html>
+    <head>
         <title> Louis Dupont </title>
-        <link rel="stylesheet" type="text/css" href="../style/style.css" media="all" />
-    </th>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        {% block stylesheets %}
+        <link href="{{ asset('css/style.css')}}" type="text/css" rel="stylesheet">
+        {% endblock %}
 
-    <meta charset="UTF-8">
-</head>
+        <p align="center">
+            Louis Dupont
+        </p>
 
-<body>
-<p>
-    Graphiste
-</p>
-</body>
+    </head>
 
+    <body>
 
+        <img class="left" style="top: 120px" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="livre graphique" />
+        <img class="left" style="top: 820px" src="{{ asset('ImageSite/im.jpg') }}" alt="livre graphique" />
+        <img class="left" style="top: 1520px" src="{{ asset('ImageSite/photo.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 120px" src="{{ asset('ImageSite/obj.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 820px" src="{{ asset('ImageSite/livre.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 1520px" src="{{ asset('ImageSite/gregstrong.jpg') }}" alt="livre graphique" />
+        <p>
+            <a>Work</a>
 
-
-
-</html>
+            <b>contact</b>
+        </p>
+    </body>
+    </html>
