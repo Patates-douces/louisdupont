@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Louis Dupont </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    {% block stylesheets %}
+        <link href="{{ asset('css/projet_style.css')}}" type="text/css" rel="stylesheet">
+    {% endblock %}
+
+    <p align="center">
+        Louis Dupont
+    </p>
+
+</head>
+
+<body>
+    <p>
+        <a class="work" href="http://127.0.0.1:8000/">Home</a>
+
+        <a class="contact" href="http://127.0.0.1:8000/contact">
+            contact
+        </a>
+    </p>
+    <p align="center">
+        <h3 class="titre">
+            Titre du projet
+        </h3>
+    </p>
+    <p class="description">
+        résumé du projet, explication et description. permet de mettre en valeur les consignes et conditions et ce que tu as appris en le faisant (outils et culture ) bla bla blabla
+        bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla.
+    </p>
+        <img class="left" style="top: 520px" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="livre graphique" />
+        <img class="left" style="top: 1220px" src="{{ asset('ImageSite/im.jpg') }}" alt="livre graphique" />
+        <img class="left" style="top: 1920px" src="{{ asset('ImageSite/photo.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 520px" src="{{ asset('ImageSite/obj.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 1320px" src="{{ asset('ImageSite/livre.jpg') }}" alt="livre graphique" />
+        <img class="right" style="top: 1920px" src="{{ asset('ImageSite/gregstrong.jpg') }}" alt="livre graphique" />
+
+</body>
+</html>
