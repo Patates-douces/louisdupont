@@ -22,6 +22,17 @@ p {
     right: 600px;
 }
 
+.titre {
+    position: absolute;
+    top: 150px;
+}
+
+.description {
+    position: absolute;
+    font-size: 14px;
+    top: 200px;
+}
+
 .left {
     max-width: 40%;
     height: auto;
@@ -35,5 +46,3 @@ p {
     position: absolute;
     right: 150px;
 }
-
-
