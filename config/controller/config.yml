@@ -2,4 +2,6 @@
 services:
   app.home.controller:
     class: Tws\Controller\HomeController
-    arguments:
+
+  app.page.controller:
+    class: Tws\Controller\PageController

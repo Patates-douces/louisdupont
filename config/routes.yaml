@@ -1,6 +1,13 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-HomeController:
+HomePage:
     path: /
     controller: App\Controller\HomeController::index
+Contact:
+    path: /contact
+    controller: App\Controller\PageController::contact
+Projet:
+    path: /projet/{projet}
+    controller: App\Controller\PageController::projet
+

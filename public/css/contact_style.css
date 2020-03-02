@@ -22,18 +22,10 @@ p {
     right: 600px;
 }
 
-.left {
-    max-width: 40%;
-    height: auto;
-    position: absolute;
-    left: 150px;
+h3 {
+    position: center;
 }
 
-.right {
-    max-width: 40%;
-    height: auto;
-    position: absolute;
-    right: 150px;
+.description {
+    font-size: 14px;
 }
-
-

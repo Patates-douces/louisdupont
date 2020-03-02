@@ -1,31 +1,21 @@
-
-<!DOCTYPE html>
-    <html>
-    <head>
-        <title> Louis Dupont </title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        {% block stylesheets %}
-        <link href="{{ asset('css/style.css')}}" type="text/css" rel="stylesheet">
-        {% endblock %}
-
-        <p align="center">
-            Louis Dupont
-        </p>
-
-    </head>
-
-    <body>
-
+{% include "page/template.html.twig" %}
+{% block content %}
+    <a href={{path("Projet", { projet : 'projet1'})}}>
         <img class="left" style="top: 120px" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="livre graphique" />
+    </a>
+    <a href={{path("Projet", { projet : 'projet2'})}}>
         <img class="left" style="top: 820px" src="{{ asset('ImageSite/im.jpg') }}" alt="livre graphique" />
+    </a>
+    <a href={{path("Projet", { projet : 'projet3'})}}>
         <img class="left" style="top: 1520px" src="{{ asset('ImageSite/photo.jpg') }}" alt="livre graphique" />
+    </a>
+    <a href={{path("Projet", { projet : 'projet4'})}}>
         <img class="right" style="top: 120px" src="{{ asset('ImageSite/obj.jpg') }}" alt="livre graphique" />
+    </a>
+    <a href={{path("Projet", { projet : 'projet5'})}}>
         <img class="right" style="top: 820px" src="{{ asset('ImageSite/livre.jpg') }}" alt="livre graphique" />
+    </a>
+    <a href={{path("Projet", { projet : 'projet6'})}}>
         <img class="right" style="top: 1520px" src="{{ asset('ImageSite/gregstrong.jpg') }}" alt="livre graphique" />
-        <p>
-            <a>Work</a>
-
-            <b>contact</b>
-        </p>
-    </body>
-    </html>
+    </a>
+{% endblock %}
