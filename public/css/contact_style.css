@@ -1,0 +1,31 @@
+
+html {
+    overflow: auto;
+}
+
+p {
+    color: darkred;
+    position: center;
+}
+
+.work {
+    color: darkred;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+
+.contact {
+    color: darkred;
+    position: absolute;
+    top: 60px;
+    right: 600px;
+}
+
+h3 {
+    position: center;
+}
+
+.description {
+    font-size: 14px;
+}

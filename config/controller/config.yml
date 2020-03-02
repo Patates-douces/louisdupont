@@ -1,0 +1,7 @@
+
+services:
+  app.home.controller:
+    class: Tws\Controller\HomeController
+
+  app.page.controller:
+    class: Tws\Controller\PageController
