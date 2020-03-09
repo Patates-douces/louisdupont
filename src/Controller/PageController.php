@@ -25,6 +25,8 @@ class PageController extends AbstractController
      */
     public function projet($projet) : Response
     {
-        return new Response( $this->render('page/projet/' . $projet . '.html.twig'));
+        return new Response( $this->render('page/projet/' . $projet . '.html.twig', [
+            'title' => $projet
+        ]));
     }
 }
