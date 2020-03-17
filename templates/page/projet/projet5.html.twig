@@ -1,0 +1,21 @@
+{% include "page/projet/projetTemplate.html.twig" %}
+{% block content %}
+
+    {% block stylesheets %}
+        <link href="{{ asset('css/projet1.css')}}" type="text/css" rel="stylesheet">
+    {% endblock %}
+
+    <p align="center">
+    <h3 class="titre">
+        titre 5
+    </h3>
+    </p>
+    <p class="description">
+        résumé du projet, explication et description. permet de mettre en valeur les consignes et conditions et ce que tu as appris en le faisant (outils et culture ) bla bla blabla
+        bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla bla bla blabla.
+        <img class="picture" src="{{ asset('ImageSite/livre.jpg') }}" alt="site louis" />
+    </p>
+
+    <script src ="{{ asset('js/projet1.js') }}"></script>
+
+{% endblock %}

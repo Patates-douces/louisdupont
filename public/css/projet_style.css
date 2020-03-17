@@ -33,16 +33,8 @@ p {
     top: 200px;
 }
 
-.left {
+.image {
     max-width: 40%;
     height: auto;
-    position: absolute;
-    left: 150px;
-}
-
-.right {
-    max-width: 40%;
-    height: auto;
-    position: absolute;
-    right: 150px;
-}
+    position: center;
+    top: 600px;

@@ -5,13 +5,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-/**
- * @Rest\Controller(prefix="/", service="app.page.controller")
- */
 class PageController extends AbstractController
 {
     /**
-     * @Route("/contact" , name = "contact")
+     * @Route("/contact" , name = "Contact")
      * @return Response
      */
     public function contact() : Response
@@ -20,11 +17,13 @@ class PageController extends AbstractController
     }
 
     /**
-     * @Route("/projet1" , name = "projet1")
+     * @Route("/projet/{projet}" , name = "Projet")
      * @return Response
      */
-    public function projet1() : Response
+    public function projet($projet) : Response
     {
-        return new Response( $this->render('page/Projet1.html.twig'));
+        return new Response( $this->render('page/projet/' . $projet . '.html.twig', [
+            'title' => $projet
+        ]));
     }
 }

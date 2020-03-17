@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Louis Dupont </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    {% block stylesheets %}
+        <link href="{{ asset('css/style.css')}}" type="text/css" rel="stylesheet">
+    {% endblock %}
+
+    <p align="center">Louis Dupont</p>
+</head>
+
+<body>
+    <p>
+        <a class="work" href="{{ path("HomePage") }}">Home</a>
+        <a class="contact" href="{{ path("Contact") }}">contact</a>
+    </p>
+</body>
+</html>
