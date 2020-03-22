@@ -3,23 +3,14 @@ html {
     overflow: auto;
 }
 
+.bottom {
+    position: absolute;
+    top: 2200px;
+}
+
 p {
     color: darkred;
     position: center;
-}
-
-.work {
-    color: darkred;
-    position: absolute;
-    top: 60px;
-    left: 600px;
-}
-
-.contact {
-    color: darkred;
-    position: absolute;
-    top: 60px;
-    right: 600px;
 }
 
 .left {
@@ -34,6 +25,32 @@ p {
     height: auto;
     position: absolute;
     right: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkred;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+li {
+    float: left;
+}
+
+.navbar {
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    display: inline-block;
+    white-space : nowrap;
 }
 
 

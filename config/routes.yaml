@@ -10,5 +10,8 @@ Contact:
 Projet:
     path: /projet/{projet}
     controller: App\Controller\PageController::projet
+Galery:
+    path: /galery
+    controller: App\Controller\DessinController::Drawing
 
 

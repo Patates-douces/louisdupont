@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <ul>
+        <li><a class="navbar" href="{{ path("HomePage") }}">Louis Dupont</a></li>
+        <li><a class="navbar" href="{{ path("Contact") }}">Contact</a></li>
+        <li><a class="navbar" href="{{ path("Galery") }}">Drawings Galery</a></li>
+    </ul>
+    {% block content %}{% endblock %}
     <title> Louis Dupont </title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     {% block stylesheets %}
         <link href="{{ asset('css/style.css')}}" type="text/css" rel="stylesheet">
     {% endblock %}
 
-    <p align="center" style="color: darkred">
-        Louis Dupont
-    </p>
 </head>
 <body>
-    <p style="color: darkred">
-        <a class="work" href="{{ path("HomePage") }}">Home</a>
-        <a class="contact" href="{{ path("Contact") }}">contact</a>
-    </p>
-
-
-    {% block content %}{% endblock %}
-
-{#    <img class="image" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="site louis" />#}
-    {#<img class="left" style="top: 520px" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="livre graphique" />#}
-    {#<img class="left" style="top: 1220px" src="{{ asset('ImageSite/im.jpg') }}" alt="livre graphique" />#}
-    {#<img class="left" style="top: 1920px" src="{{ asset('ImageSite/photo.jpg') }}" alt="livre graphique" />#}
-    {#<img class="right" style="top: 520px" src="{{ asset('ImageSite/obj.jpg') }}" alt="livre graphique" />#}
-    {#<img class="right" style="top: 1320px" src="{{ asset('ImageSite/livre.jpg') }}" alt="livre graphique" />#}
-    {#<img class="right" style="top: 1920px" src="{{ asset('ImageSite/gregstrong.jpg') }}" alt="livre graphique" />#}
 
 </body>

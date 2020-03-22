@@ -5,3 +5,6 @@ services:
 
   app.page.controller:
     class: Tws\Controller\PageController
+
+  app.dessin.controller:
+    class: Tws\Controller\Dessincontroller

@@ -1,13 +1,11 @@
 
 .titre {
     position: absolute;
-    top: 150px;
 }
 
 .description {
     position: absolute;
     font-size: 14px;
-    top: 200px;
 }
 
 .picture {
