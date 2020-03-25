@@ -1,0 +1,22 @@
+
+{% block title 'Galerie de dessins' %}
+
+{% block body %}
+    <div class="container">
+         <h2>Galerie de Dessin</h2>
+         <div class="row flex">
+{#             {% for dessin in dessins %}#}
+                <div class="col-3">
+                    <div class ="card">
+                        <div class ="card-body">
+                            <h5 class ="card-title">
+                                <a href="#">{{ dessins.title }}</a>
+                            </h5>
+                            <p clas="card-text">{{ dessins.description }}</p>
+                            <div class="text-pimary"> 200 €</div>
+                        </div>
+                    </div>
+                </div>
+         </div>
+    </div>
+{% endblock %}

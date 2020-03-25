@@ -1,24 +1,22 @@
 
-{% include "page/template.html.twig" %}
+{% extends "page/template.html.twig" %}
 {% block content %}
     <a href={{path("Projet", { projet : 'projet1'})}}>
-        <img class="left" style="top: 120px" src="{{ asset('ImageSite/sitelouis.jpg') }}" alt="livre" />
+        <img class="left" style="top: 120px" src="{{ asset('ImageSite/livre_geometrie_pres.png') }}" alt="livre" />
     </a>
     <a href={{path("Projet", { projet : 'projet2'})}}>
-        <img class="left" style="top: 820px" src="{{ asset('ImageSite/im.jpg') }}" alt="stronger" />
+        <img class="left" style="top: 620px" src="{{ asset('ImageSite/combat_double_page.png') }}" alt="stronger" />
     </a>
     <a href={{path("Projet", { projet : 'projet3'})}}>
-        <img class="left" style="top: 1520px" src="{{ asset('ImageSite/photo.jpg') }}" alt="photo" />
+        <img class="left" style="top: 1100px" src="{{ asset('ImageSite/photo_arche.jpg') }}" alt="photo" />
     </a>
     <a href={{path("Projet", { projet : 'projet4'})}}>
-        <img class="right" style="top: 120px" src="{{ asset('ImageSite/obj.jpg') }}" alt="obj" />
+        <img class="right" style="top: 120px" src="{{ asset('ImageSite/couverture_pres.jpg') }}" alt="obj" />
     </a>
     <a href={{path("Projet", { projet : 'projet5'})}}>
-        <img class="right" style="top: 820px" src="{{ asset('ImageSite/livre.jpg') }}" alt="livre classique" />
+        <img class="right" style="top: 575px" src="{{ asset('ImageSite/louis_pres.jpg') }}" alt="livre classique" />
     </a>
     <a href={{path("Projet", { projet : 'projet6'})}}>
-        <img class="right" style="top: 1520px" src="{{ asset('ImageSite/gregstrong.jpg') }}" alt="greg" />
+        <img class="right" style="top: 1020px" src="{{ asset('ImageSite/portrait_effort.jpg') }}" alt="greg" />
     </a>
 {% endblock %}
-
-    </html>
